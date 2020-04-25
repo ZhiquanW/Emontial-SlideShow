@@ -24,7 +24,6 @@ class Slide(object):
 
 class TargetCurves(object):
     def __init__(self, info_mat: List):
-        print(len(info_mat))
         self.straight = info_mat[0]
         self.straight_curve_down = info_mat[1]
         self.straight_curve_hill = info_mat[2]
