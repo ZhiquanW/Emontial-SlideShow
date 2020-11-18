@@ -1,0 +1,12 @@
+name: emo_slide
+channels:
+    - defaults
+    - conda-forge
+dependencies:
+    - python = 3.8.5
+    - numpy = 1.19.*
+    - scipy = 1.5.2
+    - matplotlib
+    - pip
+    - click
+    - tqdm
